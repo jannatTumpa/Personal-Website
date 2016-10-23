@@ -172,28 +172,30 @@ INTRO
 }
 #intro .item {
   height: 100%;
-  background: url('../img/home.jpg') no-repeat;
+  background: url('../img/home.jpg') no-repeat center center;
+  /*background-repeat:no-repeat;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /*background-position:center;*/
   -webkit-backface-visibility: hidden;
 }
 #intro .item .logo {
-  margin-bottom: 120px;
+  margin-bottom: 7.5em;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
 }
 @media (max-width: 767px) {
   #intro .item .logo {
-    margin-bottom: 50px;
+    margin-bottom: 3.1em;
   }
 }
 #intro .item h1 {
-  font-size: 40px;
+  font-size: 2.5em;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 1.5em;
   font-weight: 700;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -201,17 +203,17 @@ INTRO
 }
 @media (max-width: 991px) {
   #intro .item h1 {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 }
 @media (max-width: 767px) {
   #intro .item h1 {
-    font-size: 35px;
+    font-size: 2.18em;
   }
 }
 #intro .item h2 {
   color: #000056;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   font-weight: 400;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -219,15 +221,15 @@ INTRO
 }
 @media (max-width: 767px) {
   #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 1.56em;
+    margin-bottom: 1.25em;
     padding: 0 30px;
   }
 }
 @media (max-width: 1199px) {
   #intro .item h2 {
-    font-size: 25px;
-    margin-bottom: 40px;
+    font-size: 1.56em;
+    margin-bottom: 2.5em;
   }
 }
 #intro .item .carousel-caption {
@@ -773,8 +775,8 @@ FOOTER
 #footer p.social a.instagram {
   background-color: #cd4378;
 }
-#footer p.social a.skype {
-  background-color: #12a5f4;
+#footer p.social a.linkedin {
+  background-color: #0077B5;
 }
 #footer p.social a.email {
   background-color: #4a7f45;
@@ -1535,26 +1537,26 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 1.37em;
+  margin-bottom: 1.37em;
 }
 p {
   margin: 0 0 11px;
 }
 .lead {
-  margin-bottom: 22px;
-  font-size: 18px;
+  margin-bottom: 1.37em;
+  font-size: 1.125em;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 24px;
+    font-size: 1.5em;
   }
 }
 .text-small {
-  font-size: 14px;
+  font-size: .875em;
 }
 .text-large {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 .text-italic {
   font-style: italic;
